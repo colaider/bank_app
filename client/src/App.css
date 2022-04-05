@@ -1,0 +1,181 @@
+body{
+  background: #FDF6EC;
+}
+.header{
+  width: 100%;
+  height: 100px;
+  background: #DAB88B;
+  box-shadow: 0px 14px 30px -15px rgba(66, 68, 90, 1);
+  display: flex;
+}
+.popup-box{
+  width: 600px;
+  height: 400px;
+  background: #be8c63c7;
+  border-radius: 10px;
+  z-index: 99;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  position: absolute;
+  box-shadow: 0px 14px 30px -15px rgba(66, 68, 90, 1);
+  /* margin-top: -50px; */
+}
+.bankInfo{
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0px 14px 30px -15px rgb(58, 59, 77);
+  background: #DAB88B;
+  padding: 5px;
+  padding-left:30px;
+  padding-right:30px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.buttonsBankDiv{
+  display: flex;
+}
+.buttonBank{
+  width: 70px;
+  height: 80%;
+  border-radius: 10px;
+  background: #B7CADB;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  border: none;
+  box-shadow: 0px 14px 30px -15px rgb(58, 59, 77);
+  transition: 0.4s;
+}
+.buttonBank:hover{
+  box-shadow: 0px 20px 60px -45px rgb(58, 59, 77);
+  transition: 0.4s;
+}
+.addButton{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 14px 30px -15px rgb(58, 59, 77);
+  background: #B7CADB;
+  position: relative;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.4s;
+}
+.buttonAddDiv{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.addButton:hover{
+  box-shadow: 0px 10px 20px -15px rgb(58, 59, 77);
+  transition: 0.4s;
+}
+.calculator{
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  text-align: center;
+  background: #B7CADB;
+  margin-top: 3px;
+  margin-left: 10px;
+  border:none;
+  box-shadow: 0px 14px 30px -15px rgb(58, 59, 77);
+  transition: 0.4s;
+}
+.calculator:hover{
+  box-shadow: 0px 20px 60px -45px rgb(58, 59, 77);
+  transition: 0.4s;
+}
+.divClac{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.bankNameDiv{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  padding-left: 20px;
+}
+.detailsBank{
+  margin-left: 40px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+}
+.moreDetails{
+  width: 50%;
+  height: 100%;
+  display: block;
+  padding-left: 20%;
+  text-align: left;
+}
+.verticalBankView{
+  display: block;
+  width: 70%;
+}
+.form{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 0 2vh 0;
+}
+.form input{
+    display: block;
+    width: 90%;
+    padding: .5rem .8rem .5rem .8rem;
+    margin: .9vw 0;
+    border:0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 14px 30px -15px rgb(58, 59, 77);
+}
+.form button{
+  width: 95%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  background: #B7CADB;
+  box-shadow: 0px 14px 30px -15px rgb(58, 59, 77);
+  border-radius:5px ;
+  margin-top: 5px;
+  transition: 0.4s;
+}
+.form button:hover{
+  box-shadow: 0px 10px 20px -25px rgb(58, 59, 77);
+  transition: 0.4s;
+}
+.closeBut{
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  background: #B7CADB;
+  border:none;
+  box-shadow: 0px 14px 30px -15px rgb(58, 59, 77);
+
+}
+.closeBut:hover{
+  box-shadow: 0px 10px 20px -25px rgb(58, 59, 77);
+}
+.Calculator{
+  width: 90%;
+  height: 60px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 14px 30px -15px rgb(58, 59, 77);
+  background: #DAB88B;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
